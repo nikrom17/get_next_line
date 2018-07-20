@@ -21,10 +21,10 @@ Tested on macOS High Sierra with gcc version 9.1.0
 5. Makefile commands:
 	* `re`, `clean`, `fclean`, and `all`
 6. Compile the `get_next_line` function with the libft.a file
-    `clang -Wall -Wextra -Werror -I libft/includes -o get_next_line.o -c get_next_line.c`
+    * `clang -Wall -Wextra -Werror -I libft/includes -o get_next_line.o -c get_next_line.c`
 7. Use the `get_next_line.o` file when compiling with your "main" file. See below for an example.
-    `clang -Wall -Wextra -Werror -I libft/includes -o main.o -c main.c`
-    `clang -o test_gnl main.o get_next_line.o -I libft/includes -L libft/ -lft`
+    * `clang -Wall -Wextra -Werror -I libft/includes -o main.o -c main.c`
+    * `clang -o test_gnl main.o get_next_line.o -I libft/includes -L libft/ -lft`
 
 ## Authors
 
